@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Exp3_WPF/1.0.0": {
+        "runtime": {
+          "Exp3_WPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exp3_WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

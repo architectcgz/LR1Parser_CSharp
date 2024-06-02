@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Exp3_test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Exp3_test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Remove="Exp3_test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Exp3_test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\Icons\look.png" />
+      <Resource Include="Resources\Icons\look.png" />
+      <None Remove="Resources\Icons\newfile.png" />
+      <Resource Include="Resources\Icons\newfile.png" />
+      <None Remove="Resources\Icons\run.png" />
+      <Resource Include="Resources\Icons\run.png" />
+      <None Remove="Resources\Icons\savefile.png" />
+      <Resource Include="Resources\Icons\savefile.png" />
+    </ItemGroup>
+
+</Project>

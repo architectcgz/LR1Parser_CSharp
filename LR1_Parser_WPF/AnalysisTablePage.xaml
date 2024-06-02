@@ -1,0 +1,14 @@
+<Window x:Class="Exp3_WPF.AnalysisTablePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Exp3_WPF"
+        mc:Ignorable="d"
+        Title="AnalysisTablePage" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Canvas Name="TableCanvas" Background="White" Width="1000" Height="1000"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
